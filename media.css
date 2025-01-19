@@ -1,0 +1,528 @@
+
+  @media (max-width: 808px) {
+   
+    /* Навигация */
+    .nav {
+      position: absolute;
+      
+    }
+
+    /* Вступление */
+    .img_hello {
+      margin-top: 15px;
+      text-align: center;
+     }
+    .img_hello_img{
+      width: 411px;
+     }
+    /* Приглашение */
+    .palette_img1 {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 768px) {
+   
+    /* Навигация */
+    .nav {
+      position: relative;
+      
+    }
+    .hamb{
+      cursor: pointer;
+      float: right;
+      padding: 20px 20px;
+  }
+  .play_button {
+    padding: 10px 20px;
+    border: none;
+}
+
+  }
+
+  @media (max-width: 568px) {
+    /* Навигация */
+   
+      /* Вступление */
+      .promo {
+        padding: 0px 0 30px 0;
+        /* background: url("../img/Вступление/Слой\ 1.jpg") center center/cover no-repeat; */
+        }
+        
+    .title {
+      margin-top: 5px; 
+      font-size: 34pt;
+    }
+    h2{
+      margin-top: 30px;
+      padding: 0 0px;
+      font-size: 14px;
+    }
+    /* Приглашение */
+    .waiting .waiting_header {
+      padding: 0 0;
+      font-size: 34px;
+    }
+    .waiting .waiting_subheader {
+     padding: 10px 50px;
+     font-size: 12pt;   
+    }
+    .waiting_subheader_special {
+      font-size: 14pt;
+    }
+    .palette_img11 {
+    width: 254px;
+    }
+    .palette_img12 {
+    width: 210px;
+    }
+
+  /* Тайминг */
+    .optimization {
+    padding: 20px 0 0px 0;
+    background-size: 35%;
+
+    }
+    .optimization .optimization_header {
+    padding: 0 0;
+    font-size: 34px;
+    }
+    .optimization .optimization_wrapper {
+    margin-top: 70px;
+    } 
+    .images_row{
+    margin-top: 20px;
+    }
+    .images_row_img {
+      width: 200px;
+    }
+
+/* Локация */
+    .place .place_btn {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      width: 200px;
+      height: 50px;
+
+      font-size: 18px;
+
+      transition: background-color 0.2s ease-in, top 0.2s ease-in;
+    }
+    .place .place_btn:hover {
+      margin-top: 20px;
+      width: 200px;
+      height: 50px;
+      
+      font-size: 18px;
+    }
+    .place .place_header {
+      padding: 20px 0 0px 0;
+      font-size: 34px;
+    }
+    .place .place_subheader { 
+      margin-top: 20px;
+      padding: 0 130px;
+      font-size: 14px;
+    }
+    .place .place_place_header {
+      padding: 20px 10px;
+      font-size: 24px;
+    }
+    .place .place_img {
+      margin-top: 15px;
+    }
+    .place_img_img{
+      width: 272px;
+    }
+
+    /* Палитра */
+    .palette_img {
+      grid-column-gap: 20px;
+      grid-template-columns: 100px 0fr;
+    }
+    h6 {
+        font-size: 34px;
+    }
+    .palette_img_img {
+      width: 238px;
+    }
+
+    .palette .palette_wraper{
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .palette_wraper_icons {
+      width: 60px;
+    }
+    .palette .palette_text{
+        padding: 20px 10px ;
+        font-size: 14pt;
+    }
+    .palette .palette_subtext{
+        font-size: 18pt;
+    }
+
+    /* Анкета */
+    .Form { 
+      height: 580px;
+    }
+    .Form .form_header{
+        padding: 20px 0 0px 0;
+        font-size: 34px;
+    }
+    .Form .form_subheader{
+        margin-top: 10px;
+        padding: 0px 0px;
+        font-size: 12pt;
+    }
+    .Form .form_sabheader_2 {
+        padding: 20px 0 10px 0;
+        font-size: 18pt;
+    }
+    .Form form .input{
+        padding: 5px 0;
+        margin: 10px 0;
+        font-size: 14pt;
+    }
+    .Form form .check-box {
+        width: 250px;
+        gap: 25px;
+        margin: 20px 0 30px 0;
+        /* font-size: 14pt; */
+    }
+    input[type="checkbox"] {
+        transform: scale(1.7);
+    } 
+    label1 {
+        margin-top: 20px;
+        padding: 0px px;
+        font-size: 14px;
+    }
+    label2 {
+        padding: 0px 0px;
+        font-size: 18px;
+    }
+    span {
+        margin-bottom: 10px;
+        padding: 0px 0px;
+        font-size: 12px; 
+    }
+    
+    .Form form .Form_btn {
+        margin: 10px 0px;
+        width: 162px;
+        height: 43px;
+        
+        font-size: 14px;
+        
+        transition: background-color 0.2s ease-in, top 0.2s ease-in;
+    }
+    .Form form .Form_btn:hover {
+        margin: 10px 0px;
+        width: 162px;
+        height: 43px;
+    
+        font-size: 14px;
+    }
+
+  /* Контакты */
+    .End .End_header{
+    padding: 30px 0 0px 0;
+    font-size: 34px;
+    }
+    .End .End_subheader{
+        margin-top: 10px;
+        padding: 0px 0px;
+        font-size: 12pt;
+    }
+    .End .End_sabheader_2 {
+        padding: 10px 0 0px 0;
+        font-size: 12pt;
+    }
+    .End .End_sabheader_3 {
+        padding: 20px 0 0px 0;
+        font-size: 14pt;
+    }
+
+    .End .End_wraper {
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+      gap: 20px;
+    }
+    .End_icons_img {
+      width: 50px;
+    }
+    .End .End_wraper .End_icons:hover {
+        border: 2px;
+        scale: 1.2;
+    }
+
+/* Отчет времени */
+    h5{
+        padding: 30px 0 0px 0;
+        font-size: 24pt;
+    }
+    span5 {
+      padding: 20px 0px;
+       color: #dd80b2;
+       font-family: 'cambria';
+       font-size: 34px; 
+  }
+
+}
+
+@media (max-width: 435px) {
+
+  .background {
+    /* background: url(../img/Фон\ моб.png) center center/cover no-repeat; */
+    background: url(../img/ФОН435пикс.png);
+  }
+
+  /* Навигация */
+
+    /* Вступление */
+  .title {
+    margin-top: 5px; 
+    font-size: 34pt;
+  }
+  .img_hello {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .img_hello_img{
+    width: 311px;
+    height: 467px;
+  }
+  h2{
+    margin-top: 30px;
+    padding: 0 0px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+  }
+  /* Приглашение */
+  .waiting {
+    /* min-height: 1860px; */
+    padding: 50px 0 0px 0;
+}
+  .waiting .waiting_header {
+    padding: 0 0;
+    font-size: 34px;
+  }
+  .waiting .waiting_subheader {
+   padding: 25px 20px 0px 20px;
+   font-size: 12pt;   
+  }
+  .waiting_subheader_special {
+    font-size: 14pt;
+  }
+  .palette_img1 {
+    margin-top: 50px;
+    gap: 50px;
+    }
+  .palette_img11 {
+  width: 262px;
+  height: 370px;
+  }
+  .palette_img12 {
+  width: 215px;
+  height: 266px;
+  }
+
+/* Тайминг */
+  .optimization {
+  padding: 0px 0 0px 0;
+  background-size: 35%;
+
+  }
+  .optimization .optimization_header {
+  padding: 0 0;
+  font-size: 34px;
+  }
+  .images_row{
+  margin-top: 25px;
+  }
+  .images_row_img {
+    width: 233px;
+    height: 288px;
+  }
+
+/* Локация */
+  .place .place_btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 190px;
+    height: 35px;
+
+    font-size: 14px;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+  }
+  .place .place_btn:hover {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 190px;
+    height: 35px;
+    
+    font-size: 14px;
+  }
+  .place .place_header {
+    padding: 50px 0 0px 0;
+    font-size: 34px;
+  }
+  .place .place_subheader { 
+    margin-top: 25px;
+    padding: 0 0px;
+    font-size: 14px;
+  }
+  .place .place_place_header {
+    padding: 25px 0px 0px 0px;
+    font-size: 24px;
+  }
+  .place .place_img {
+    margin-top: 25px;
+  }
+  .place_img_img{
+    width: 261px;
+    height: 273px;
+  }
+
+  /* Палитра */
+  .palette_img {
+    margin-top: 50px;
+    grid-column-gap: 5px;
+    grid-template-columns: 100px 0fr;
+  }
+  h6 {
+      font-size: 34px;
+  }
+  .palette_img_img {
+    width: 189px;
+    height: 285px;
+  }
+
+  .palette .palette_wraper{
+      margin-top: 25px;
+      gap: 10px;
+  }
+  .palette_wraper_icons {
+    width: 45px;
+  }
+  .palette .palette_text{
+      padding: 25px 30px 0 30px ;
+      font-size: 10pt;
+  }
+  .palette .palette_subtext{
+    margin-top: 25px;
+      font-size: 14pt;
+  }
+
+  /* Анкета */
+  .Form { 
+    height: 580px;
+  }
+  .Form .form_header{
+      padding: 50px 0 0px 0;
+      font-size: 34px;
+  }
+  .Form .form_subheader{
+      margin-top: 25px;
+      padding: 0px 0px;
+      font-size: 12pt;
+  }
+  .Form .form_sabheader_2 {
+      padding: 25px 0 0px 0;
+      font-size: 14pt;
+  }
+  .Form form .input{
+      padding: 25px 0 0px 0px;
+      margin: 0px 0;
+      font-size: 14pt;
+  }
+  .Form form .check-box {
+      width: 250px;
+      gap: 25px;
+      margin: 25px 0 0px 0;
+      /* font-size: 14pt; */
+  }
+  input[type="checkbox"] {
+      transform: scale(1.5);
+  } 
+  label1 {
+      margin-top: 0px;
+      padding: 25px 0px 0px 0px;
+      font-size: 14px;
+  }
+  label2 {
+      padding: 0px 0px;
+      font-size: 18px;
+  }
+  span {
+      margin-bottom: 10px;
+      padding: 0px 0px;
+      font-size: 12px; 
+  }
+  
+  .Form form .Form_btn {
+      margin: 10px 0px;
+      width: 150px;
+      height: 30px;
+      
+      font-size: 14px;
+      
+      transition: background-color 0.2s ease-in, top 0.2s ease-in;
+  }
+  .Form form .Form_btn:hover {
+      margin: 10px 0px;
+      width: 150px;
+      height: 30px;
+  
+      font-size: 14px;
+  }
+
+/* Контакты */
+  .End .End_header{
+  padding: 50px 0 0px 0;
+  font-size: 34px;
+  }
+  .End .End_subheader{
+      margin-top: 25px;
+      padding: 0px 0px;
+      font-size: 12pt;
+  }
+  .End .End_sabheader_2 {
+      padding: 25px 0 0px 0;
+      font-size: 12pt;
+  }
+  .End .End_sabheader_3 {
+      padding: 25px 0 0px 0;
+      font-size: 14pt;
+  }
+
+  .End .End_wraper {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+  }
+  .End_icons_img {
+    width: 50px;
+  }
+  .End .End_wraper .End_icons:hover {
+      border: 2px;
+      scale: 1.2;
+  }
+
+/* Отчет времени */
+  h5{
+      padding: 30px 0 0px 0;
+      font-size: 18pt;
+  }
+  span5 {
+    padding: 20px 0px 100px 0px;
+     color: #ff723c;
+     font-family: 'cambria';
+     font-size: 20px; 
+}
+
+}
