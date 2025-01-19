@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Ruslan&Tatyana</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/fonts/rozoviichulok_regular.ttf">
+    <link rel="stylesheet" href="src/fonts/cambria.ttc">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="./src/css/media.css">
+    
+    <!-- скрипт отчет времени -->
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("July 25, 2025 16:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("countdown").innerHTML = days + " дней " + hours + " часов "
+          + minutes + " минут " + seconds + " секунд ";
+
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+    
+</head>
+
+<body>
+    <section class="background">
+        <header class="header">
+            <!-- Logo -->
+            <!-- Аудио -->
+            
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#">Приглашение</a></li>
+                    <li><a href="#">Тайминг</a> </li>
+                    <li><a href="#">Локация</a></li>
+                    <li><a href="#">Палитра</a></li>
+                    <li><a href="#">Анкета</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- начало -->
+    <section class="">
+          <!-- Navigation bar -->
+
+        <img class="container">
+        <!-- Вступление -->
+             <h1 class="title">Wedding Day</h1>    
+             <div class="img_hello"><img class="img_hello_img" src="./src/img/Вступление/Слой 1.jpg"alt=""></div>
+             <h2 class="title1">Приглашаем вас на наше торжество <br>
+            любви и счастья - нашу свадьбу!</h2>
+        </div> 
+    </section>
+
+<!-- Приглашение -->
+    <section class="waiting">
+        <div class="container">
+            <h3 class="waiting_header">Дорогие родные!</h3>
+            <div class="waiting_subheader"> Мы хотим разделить этот важный день 
+             нашей жизни с вами, нашими
+                <br>
+                <span class="waiting_subheader_special">близкими и родными людьми!</span>
+                <br>
+                И будем рады, если вы подарите нам
+                <br>
+                 свою поддержку и добрые слова, 
+                 <br>
+                 а мы в свою очередь поделимся 
+                частичкой 
+            <br>нашего <span class="waiting_subheader_special">счастья!</span></div>
+            <div class="palette_img1">
+                <img class="palette_img11" src="src/img/Приглашение/Фото2 приглашение.jpg">
+                <img class="palette_img12" src="src/img/Приглашение/date.png">
+            </div>
+            <div class="palette_img1"></div>
+            </div>
+        </div>
+    </section> 
+
+<!-- Тайминг -->
+    <section class="optimization">
+        <div class="container">
+            <h4 class="optimization_header">Тайминг</h4>
+            <div class="images_timing">
+            <div class="images_row">
+                <img class="images_row_img" src="./src/img/Тайминг/таймингбб.png"alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Локация    -->
+    <section class="place">
+        <div class="container">
+            <h5 class="place_header">Место <br>
+            проведения
+            </h5>
+            <div class="place_subheader">г. Улан-Удэ
+                <br>
+                 ул. Набережня, 14а
+                 <br>
+                 25/07/25
+            </div>
+            <div class="place_place_header">Ресторан “Грильяж”
+            </div>
+            <div class="place_img"><img class="place_img_img" src="src/img/Локация/Грильяж.jpeg"alt=""></div>
+            <a class="link" href="https://2gis.ru/ulanude/geo/70000001040424380"> <button class="place_btn">Перейти к карте</button> </a>
+        </div>
+    </section>
+
+<!-- Палитра -->
+    <section class="palette">
+        <div class="conteiner">
+            <div class="palette_img">
+                <h6 class="palette_header">Свадебная палитра</h6>
+                <img class="palette_img_img" src="src/img/Палитра/DSC02427.jpg" alt=""></div>
+            </div>
+            <div class="palette_wraper">
+                <img class="palette_wraper_icons" src="src/icons/1.png" alt="">
+                <img class="palette_wraper_icons" src="src/icons/2 (2).png" alt="">
+                <img class="palette_wraper_icons" src="src/icons/3.png" alt="">
+                <img class="palette_wraper_icons" src="src/icons/4.png" alt="">
+                <img class="palette_wraper_icons" src="src/icons/5.png" alt="">
+            </div>
+            <div class="palette_text">По желанию, <br> вы можете поддержать цветовую гамму торжества своими нарядами
+            </div>
+                <div class="palette_subtext">Обязательный дресс-код - 
+            <br>
+            ваша улыбка и смех!
+                </div>
+        </div>
+    </section>
+
+<!-- Анкета -->
+    <section class="Form">
+        <div class="container">
+            <div class="form_header">Анкета</div>
+            <div class="form_subheader">Будем очень признательны,
+                <br>
+                если Вы сообщите о своем решении 
+                <br> 
+                до 25.06.2025 
+            </div>
+            <div class="form_sabheader_2">Просим подтвердить свое присутсвие 
+                <br>
+                и заполнить анкету
+            </div>
+                
+            <div class="container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input name="access_key" value="2c06846b-977d-4181-bf15-a0db10543dca">
+
+                    <label1 for="name">Имя и фамилия</label1>
+                    <span for="subname">*всех присутствующих</span>
+                    <br>
+                    <input required ="text" placeholder="Иван, Анна, Илья (5лет)"class="input">
+                    <br>
+                    <label1 for="name">Планируете ли вы присутствовать?</label1>
+                        <div required class="check-box">
+                        <input type="checkbox" id="check"/> <br>
+                        <label2 for="check">Да, с удовольствием!</label2> <br>
+                        <input type="checkbox" id="check"/> <br>
+                        <label2 for="check">К сожалению, не смогу</label2>
+                        <button class="Form_btn">Отправить</button>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Контакты -->
+    <section class="End">
+        <div class="container">
+            <div class="End_header">До встречи!</div>
+            <div class="End_subheader">Если вы приготовили для нас сюрприз
+            <br> 
+            или творческий подарок, не забудьте предупредть 
+            <br>
+            нашего свадебного организатора
+            </div>
+            <div class="End_sabheader_2">Дарима +7 914 636 01 79</div>
+            
+            <div class="End_sabheader_3">Для связи с нами:</div>
+            <div class="End_wraper">
+                <a href="https://t.me/tanyadsh"> 
+                <div class="End_icons"><img class="End_icons_img" src="src/icons/Векторный смарт-объект.png" alt=""></div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=79397927431"> 
+                <div class="End_icons"><img class="End_icons_img" src="src/icons/вотсап.png" alt=""></div>
+                 </a>
+                 <a href="https://api.whatsapp.com/send?phone=79503934725"> 
+                    <div class="End_icons"><img class="End_icons_img" src="src/icons/вотсап.png" alt=""></div>
+                 </a>
+                <a href="https://www.instagram.com/mt11.02?igsh=amhsZWtsYnB2Yjh1"> 
+                <div class="End_icons"><img class="End_icons_img" src="src/icons/инста.png" alt=""></div>
+                </a>
+            </div>
+
+    <h5>До торжества осталось: <br> <span5 id="countdown"></span5> </h5>
+        </div>
+
+        <br>
+        <br><br><br>
+        <br>
+    </section>
+    
+</section>
+        <script src="./src/js/select.js"></script>
+        <script src="./src/js/script.js"></script>
+</body>
+</html>
