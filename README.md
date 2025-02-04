@@ -1,2 +1,0 @@
-# ruslantatyana.ru
-Wedding
